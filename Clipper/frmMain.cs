@@ -82,7 +82,7 @@ namespace Clipper
                         this.InvokeEx(f =>
                             {
                                 var speed = Player.Speed;
-                                f.lblPlayerSpeed.Text = string.Format("{0} ({1}%)", speed.ToString(), ((speed * 100) / 500 - 1) * 100);
+                                f.lblPlayerSpeed.Text = string.Format("{0} ({1}%)", speed.ToString(), Math.Round(100 * (speed / 5 - 1)));
                             });
 
                         // Scan for detections..

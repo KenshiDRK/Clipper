@@ -145,7 +145,7 @@
             this.lnkClipperDownload.Size = new System.Drawing.Size(258, 13);
             this.lnkClipperDownload.TabIndex = 12;
             this.lnkClipperDownload.TabStop = true;
-            this.lnkClipperDownload.Text = "https://code.google.com/p/ffxiclipper/downloads/list";
+            this.lnkClipperDownload.Text = "https://github.com/KenshiDRK/Clipper/releases";
             this.lnkClipperDownload.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkClipperDownload_LinkClicked);
             // 
             // label6
